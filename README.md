@@ -15,3 +15,20 @@ https://dev.to/karenpayneoregon/gentle-introduction-to-generic-repository-patter
 Domain> Entities: Models, Validations, Errors
 Application: use Cases, singIng, CRUD, Infraestucture Interfaces
 Infaestructure: Repositories, shared service(Authentication, email).
+
+Mapster for mapping:  https://github.com/MapsterMapper/Mapster
+
+
+Error handling:
+https://www.youtube.com/watch?v=siI1tnkwglg
+
+https://www.milanjovanovic.tech/blog/functional-error-handling-in-dotnet-with-the-result-pattern
+https://www.youtube.com/watch?v=E3dU9Y1CsnI
+
+new global exception:
+https://www.youtube.com/watch?v=uOEDM0c9BNI
+
+Data validation uing fluent:
+https://unitcoding.com/validation-to-web-api/
+
+https://docs.fluentvalidation.net/en/latest/aspnet.html

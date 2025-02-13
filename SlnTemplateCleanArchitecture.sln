@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInventory", "WebInventory\WebInventory.csproj", "{C48C0F5B-3146-4F46-85DD-3E6413F3110C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebInventory\WebAPI.csproj", "{C48C0F5B-3146-4F46-85DD-3E6413F3110C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{E00BE4F5-ECFE-45A0-9382-93451A1E7729}"
 EndProject

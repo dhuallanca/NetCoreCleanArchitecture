@@ -3355,9 +3355,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Curso-Net-Core\\SlnInventoryProducts\\WebInventory\\WebInventory.csproj",
-      "projectName": "WebInventory",
-      "projectPath": "F:\\Curso-Net-Core\\SlnInventoryProducts\\WebInventory\\WebInventory.csproj",
+      "projectUniqueName": "F:\\Curso-Net-Core\\SlnInventoryProducts\\WebInventory\\WebAPI.csproj",
+      "projectName": "WebAPI",
+      "projectPath": "F:\\Curso-Net-Core\\SlnInventoryProducts\\WebInventory\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
       "outputPath": "F:\\Curso-Net-Core\\SlnInventoryProducts\\WebInventory\\obj\\",
       "projectStyle": "PackageReference",
