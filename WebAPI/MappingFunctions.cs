@@ -2,11 +2,12 @@
 using Domain.Entities;
 using Mapster;
 
-namespace WebInventory
+namespace WebAPI
 {
     public static class MappingFunctions
     {
-        public static ModelDto MapModelToDto(Model model) {
+        public static ModelDto MapModelToDto(Model model)
+        {
             return model.Adapt<ModelDto>();
         }
         public static Model MapDtoToModel(ModelDto model)

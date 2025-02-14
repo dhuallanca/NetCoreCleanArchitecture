@@ -3,7 +3,7 @@ using Domain.Entities;
 using Mapster;
 using System.Reflection;
 
-namespace WebInventory
+namespace WebAPI
 {
     // reference: https://code-maze.com/mapster-aspnetcore-introduction/
     public static class MapsterConfiguration

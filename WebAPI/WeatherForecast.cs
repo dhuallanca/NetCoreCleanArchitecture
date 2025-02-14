@@ -1,4 +1,4 @@
-namespace WebInventory
+namespace WebAPI
 {
     public class WeatherForecast
     {

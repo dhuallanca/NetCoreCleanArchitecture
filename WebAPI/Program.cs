@@ -1,7 +1,6 @@
 using Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using WebAPI;
-using WebInventory;
 
 var builder = WebApplication.CreateBuilder(args);
 

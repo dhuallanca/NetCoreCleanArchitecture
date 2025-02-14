@@ -2,14 +2,15 @@
 using Application.Services;
 using Infrastructure.Repository;
 
-namespace WebInventory
+namespace WebAPI
 {
     /// <summary>
     /// To separate the dependency injection from program file
     /// </summary>
     public static class ConfigServiceCollectionExtensions
     {
-        public static IServiceCollection AddDependencyInjection(this IServiceCollection services) {
+        public static IServiceCollection AddDependencyInjection(this IServiceCollection services)
+        {
 
             services.AddTransient<IModelRepository, ModelRepository>();
             services.AddTransient<IService, Service>();

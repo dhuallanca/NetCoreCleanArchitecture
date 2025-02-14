@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace WebInventory.Controllers
+namespace WebAPI.Controllers
 {
     /// <summary>
     /// Should interact with services from aplication layer
@@ -14,7 +14,8 @@ namespace WebInventory.Controllers
     public class ModelController : ControllerBase
     {
         private readonly IService _service;
-        public ModelController(IService service) {
+        public ModelController(IService service)
+        {
             _service = service;
 
         }
@@ -54,7 +55,7 @@ namespace WebInventory.Controllers
         [HttpGet("/GlobalError")]
         public string GetGlobalEror()
         {
-           throw new Exception("General");
+            throw new Exception("General");
         }
     }
 }
