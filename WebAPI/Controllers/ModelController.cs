@@ -1,4 +1,5 @@
-﻿using Application.Interfaces;
+﻿using Application.Exceptions;
+using Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -56,6 +57,13 @@ namespace WebAPI.Controllers
         public string GetGlobalEror()
         {
             throw new Exception("General");
+        }
+
+        //GET: api/<ModelController>/GlobalError
+        [HttpGet("/NotFound")]
+        public string GetNotFoundEror()
+        {
+            throw new NotFoundException("Model", 0);
         }
     }
 }
