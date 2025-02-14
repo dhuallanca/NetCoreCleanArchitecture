@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "FVdAbZPFMzmqYoWweS3eoUI8pO65SD2Yllc/4EFT6IY=",
-  "Source": "WebInventory",
-  "BasePath": "_content/WebInventory",
+  "Hash": "tDqGxdq0A4zT6y/tDdlw1NRTJSa30/3YTmJbD0pRBwc=",
+  "Source": "WebAPI",
+  "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

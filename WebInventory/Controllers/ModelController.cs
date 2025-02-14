@@ -49,5 +49,12 @@ namespace WebInventory.Controllers
         public void Delete(int id)
         {
         }
+
+        //GET: api/<ModelController>/GlobalError
+        [HttpGet("/GlobalError")]
+        public string GetGlobalEror()
+        {
+           throw new Exception("General");
+        }
     }
 }

@@ -20,12 +20,26 @@ Mapster for mapping:  https://github.com/MapsterMapper/Mapster
 
 
 Error handling:
-https://www.youtube.com/watch?v=siI1tnkwglg
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-9.0
 
-https://www.milanjovanovic.tech/blog/functional-error-handling-in-dotnet-with-the-result-pattern
+https://www.youtube.com/watch?v=siI1tnkwglg
+https://www.youtube.com/watch?v=d0Eah9-t9tY
+
+https://www.milanjovanovic.tech/blog/global-error-handling-in-aspnetcore-8
 https://www.youtube.com/watch?v=E3dU9Y1CsnI
 
+https://dev.to/muhammad_salem/comprehensive-guide-to-error-handling-in-aspnet-core-329
+
+old way using filters:
+https://medium.com/codenx/exception-handling-in-net-core-web-api-e0c4aad1db06
+
+Result patter: https://www.milanjovanovic.tech/blog/functional-error-handling-in-dotnet-with-the-result-pattern
+https://www.youtube.com/watch?v=5emVIkthkDg
+https://www.youtube.com/watch?v=WCCkEe_Hy2Y
+https://www.youtube.com/watch?v=uOEDM0c9BNI
+
 new global exception:
+https://dev.to/muhammad_salem/comprehensive-guide-to-error-handling-in-aspnet-core-329
 https://www.youtube.com/watch?v=uOEDM0c9BNI
 
 Data validation uing fluent:

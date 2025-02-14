@@ -1,5 +1,6 @@
 using Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using WebAPI;
 using WebInventory;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,8 +13,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.RegisterMapsterConfigure();
+// builder.Services.AddLogging();
 // local dI
 builder.Services.AddDependencyInjection();
+// handle exceptions
+builder.Services.RegisterExceptionConfiguration();
 
 var app = builder.Build();
 
@@ -29,5 +33,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseExceptionHandler( _=> { });
 
 app.Run();
