@@ -1,5 +1,8 @@
-﻿using Application.Exceptions;
+﻿using Application.Dtos;
+using Application.Errors;
+using Application.Exceptions;
 using Application.Interfaces;
+using Application.Result;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -54,16 +57,28 @@ namespace WebAPI.Controllers
 
         //GET: api/<ModelController>/GlobalError
         [HttpGet("/GlobalError")]
-        public string GetGlobalEror()
+        public string GetGlobalError()
         {
             throw new Exception("General");
         }
 
-        //GET: api/<ModelController>/GlobalError
+        //GET: api/<ModelController>/NotFound
         [HttpGet("/NotFound")]
-        public string GetNotFoundEror()
+        public string GetNotFoundError()
         {
             throw new NotFoundException("Model", 0);
+        }
+
+        //GET: api/<ModelController>/NotFound
+        [HttpGet("/ResultError")]
+        public string GetResultError()
+        {
+            var result = Result<ModelDto>.Failure(ModelError.SomeError);
+            if(result.IsFailure)
+            {
+                return result.Error?.Message;
+            }
+            return "ok";
         }
     }
 }

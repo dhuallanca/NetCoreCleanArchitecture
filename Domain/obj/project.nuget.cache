@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cR0CsJwe+qw=",
+  "dgSpecHash": "OtldYNmJYIw=",
   "success": true,
-  "projectFilePath": "F:\\Curso-Net-Core\\SlnInventoryProducts\\Domain\\Domain.csproj",
+  "projectFilePath": "F:\\Curso-Net-Core\\SlnTemplateCleanArquitecture\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DENNIS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
     "C:\\Users\\DENNIS\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",

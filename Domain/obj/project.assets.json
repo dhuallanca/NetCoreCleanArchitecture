@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Curso-Net-Core\\SlnInventoryProducts\\Domain\\Domain.csproj",
+      "projectUniqueName": "F:\\Curso-Net-Core\\SlnTemplateCleanArquitecture\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "F:\\Curso-Net-Core\\SlnInventoryProducts\\Domain\\Domain.csproj",
+      "projectPath": "F:\\Curso-Net-Core\\SlnTemplateCleanArquitecture\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\DENNIS\\.nuget\\packages\\",
-      "outputPath": "F:\\Curso-Net-Core\\SlnInventoryProducts\\Domain\\obj\\",
+      "outputPath": "F:\\Curso-Net-Core\\SlnTemplateCleanArquitecture\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -10,3 +10,15 @@ F:\Curso-Net-Core\SlnInventoryProducts\Domain\obj\Debug\net8.0\refint\Domain.dll
 F:\Curso-Net-Core\SlnInventoryProducts\Domain\obj\Debug\net8.0\Domain.pdb
 F:\Curso-Net-Core\SlnInventoryProducts\Domain\obj\Debug\net8.0\ref\Domain.dll
 F:\Curso-Net-Core\SlnInventoryProducts\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\bin\Debug\net8.0\Domain.deps.json
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\bin\Debug\net8.0\Domain.dll
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\bin\Debug\net8.0\Domain.pdb
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\obj\Debug\net8.0\Domain.dll
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\obj\Debug\net8.0\refint\Domain.dll
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\obj\Debug\net8.0\Domain.pdb
+F:\Curso-Net-Core\SlnTemplateCleanArquitecture\Domain\obj\Debug\net8.0\ref\Domain.dll
