@@ -15,7 +15,7 @@ namespace WebAPI.Controllers
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
-    public class ModelController : ControllerBase
+    public class ModelController : BaseApiController
     {
         private readonly IService _service;
         public ModelController(IService service)
@@ -69,7 +69,7 @@ namespace WebAPI.Controllers
             throw new NotFoundException("Model", 0);
         }
 
-        //GET: api/<ModelController>/NotFound
+        //GET: api/<ModelController>/ResultError
         [HttpGet("/ResultError")]
         public string GetResultError()
         {
@@ -79,6 +79,14 @@ namespace WebAPI.Controllers
                 return result.Error?.Message;
             }
             return "ok";
+        }
+
+        //GET: api/<ModelController>/Success
+        [HttpGet("/Success")]
+        public IActionResult GetResultSuccess()
+        {
+            var result = Result<ModelDto>.Success(value: new ModelDto(455));
+            return HandleActionResult(result);
         }
     }
 }
