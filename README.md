@@ -29,6 +29,8 @@ https://www.milanjovanovic.tech/blog/global-error-handling-in-aspnetcore-8
 https://www.youtube.com/watch?v=E3dU9Y1CsnI
 
 https://dev.to/muhammad_salem/comprehensive-guide-to-error-handling-in-aspnet-core-329
+Hybrid IexceptionHandler + Result Pattern
+https://dev.to/k_ribaric/net-error-handling-balancing-exceptions-and-the-result-pattern-ljo
 
 old way using filters:
 https://medium.com/codenx/exception-handling-in-net-core-web-api-e0c4aad1db06
