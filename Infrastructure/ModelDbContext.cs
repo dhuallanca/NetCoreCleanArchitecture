@@ -12,9 +12,8 @@ using System.Threading.Tasks;
 
 namespace Infrastructure
 {
-    public class ModelDbContext : DbContext
+    public class ModelDbContext(DbContextOptions<ModelDbContext> options) : DbContext(options)
     {
-        public ModelDbContext(DbContextOptions<ModelDbContext> options) : base(options) { }
         public DbSet<Model> Models { get; set; }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)

@@ -1,4 +1,4 @@
-﻿using Application.Result;
+﻿using Domain.Result;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading;

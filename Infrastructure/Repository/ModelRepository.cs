@@ -1,5 +1,5 @@
-﻿using Application.Interfaces;
-using Domain.Entities;
+﻿using Domain.Entities;
+using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +14,14 @@ namespace Infrastructure.Repository
     /// </summary>
     public class ModelRepository : IModelRepository, IDisposable
     {
-        private ModelDbContext _dbContext;
-        public ModelRepository(ModelDbContext context)
-        {
-            _dbContext = context;
-        }
+        //private readonly ModelDbContext _dbContext;
+        //public ModelRepository(ModelDbContext context)
+        //{
+        //    _dbContext = context;
+        //}
+        private readonly ModelDbContext _dbContext;
+        public ModelRepository(ModelDbContext context) => _dbContext = context;
+
         public Task<Model> CreateModel()
         {
             throw new NotImplementedException();

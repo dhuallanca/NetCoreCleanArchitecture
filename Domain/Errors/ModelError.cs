@@ -1,6 +1,6 @@
-﻿using Application.ResultHandler;
+﻿using Domain.ResultHandler;
 
-namespace Application.Errors
+namespace Domain.Errors
 {
     public static class ModelError
     {

@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Application.Services;
+using Domain.Interfaces;
 using Infrastructure.Repository;
 
 namespace WebAPI

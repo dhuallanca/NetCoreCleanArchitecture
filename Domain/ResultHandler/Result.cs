@@ -1,8 +1,7 @@
-﻿using Application.ResultHandler;
-using System.Data.SqlTypes;
+﻿using Domain.ResultHandler;
 
 
-namespace Application.Result
+namespace Domain.Result
 {
     public class Result<T>
     {
@@ -10,8 +9,8 @@ namespace Application.Result
         public bool IsFailure => !IsSuccess;
         public T? Model { get; }
         public Error? Error { get; set; }
-        public bool IsElse { get; }
 
+        // pivate constructor so cannot create instances of this class
         private Result(bool isSuccess, T? value, Error? error) { 
             IsSuccess = isSuccess;
             Model = value;

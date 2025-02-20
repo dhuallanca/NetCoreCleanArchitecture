@@ -1,4 +1,4 @@
-﻿namespace Application.ResultHandler
+﻿namespace Domain.ResultHandler
 {
     public class ErrorHttpStatus
     {
