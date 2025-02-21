@@ -1,7 +1,5 @@
 ﻿using Application.Interfaces;
 using Application.Services;
-using Domain.Interfaces;
-using Infrastructure.Repository;
 
 namespace WebAPI
 {
@@ -12,8 +10,6 @@ namespace WebAPI
     {
         public static IServiceCollection AddDependencyInjection(this IServiceCollection services)
         {
-
-            services.AddTransient<IModelRepository, ModelRepository>();
             services.AddTransient<IService, Service>();
             return services;
         }

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "M3Zo06lPy/o=",
+  "dgSpecHash": "tbFjbU4o9p4=",
   "success": true,
   "projectFilePath": "F:\\Curso-Net-Core\\SlnTemplateCleanArquitecture\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DENNIS\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\DENNIS\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
+    "C:\\Users\\DENNIS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\DENNIS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
     "C:\\Users\\DENNIS\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
     "C:\\Users\\DENNIS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
