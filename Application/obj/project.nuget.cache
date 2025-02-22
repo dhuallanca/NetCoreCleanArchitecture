@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tbFjbU4o9p4=",
+  "dgSpecHash": "dAlxfW4i6tI=",
   "success": true,
   "projectFilePath": "F:\\Curso-Net-Core\\SlnTemplateCleanArquitecture\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DENNIS\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\DENNIS\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\DENNIS\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\DENNIS\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\DENNIS\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\DENNIS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",

@@ -17,12 +17,14 @@ internal class Program
             // Adding validate model filter
             options.Filters.Add<ValidateModelAttribute>();
         });
+
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.RegisterMapsterConfigure();
         builder.Services.AddLogging();
         // local dI
+        builder.Services.AddApplicationValidation();
         builder.Services.AddDependencyInjection();
         builder.Services.AddDependencyInjectionInfrastructure();
         // handle exceptions
