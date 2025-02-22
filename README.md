@@ -60,3 +60,8 @@ get user id:
 https://fiseni.com/posts/current-user-aspnetcore/
 
 por revisar en medium: https://medium.com/@MilanJovanovicTech/getting-the-current-user-in-clean-architecture-36de46090a02
+
+add HttpContextAccesor to get userId from context
+https://dev.to/rickystam/ef-core-how-to-implement-basic-auditing-on-your-entities-1mbm
+
+https://weblogs.asp.net/ricardoperes/accessing-the-httpcontext-from-a-dbcontext

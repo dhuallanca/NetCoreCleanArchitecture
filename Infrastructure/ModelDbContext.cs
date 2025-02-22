@@ -1,19 +1,14 @@
 ﻿using Domain;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+
 using System.Reflection;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infrastructure
 {
-    public class ModelDbContext(DbContextOptions<ModelDbContext> options) : DbContext(options)
+    public class ModelDbContext(DbContextOptions<ModelDbContext> options, IUserIdProvider userIdProvider) : DbContext(options)
     {
+
         public DbSet<Model> Models { get; set; }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
@@ -23,18 +18,18 @@ namespace Infrastructure
                 switch (entry.State)
                 {
                     case EntityState.Added:
-                        entry.Entity.CreatedBy = "_currentUserService.UserId";
+                        entry.Entity.CreatedBy = userIdProvider.ToString(); // "_currentUserService.UserId";
                         entry.Entity.Created = DateTime.Now;
                         entry.Entity.IsActive = true;
                         break;
 
                     case EntityState.Modified:
-                        entry.Entity.LastModifiedBy = "_currentUserService.UserId";
+                        entry.Entity.LastModifiedBy = userIdProvider.ToString();
                         entry.Entity.LastModified = DateTime.Now;
                         break;
 
                     case EntityState.Deleted:
-                        entry.Entity.LastModifiedBy = "_currentUserService.UserId";
+                        entry.Entity.LastModifiedBy = userIdProvider.ToString();
                         entry.Entity.LastModified = DateTime.Now;
                         entry.Entity.IsActive = false;
                         break;

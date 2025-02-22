@@ -15,14 +15,9 @@ namespace WebAPI.Controllers
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
-    public class ModelController : BaseApiController
+    public class ModelController(IService service) : BaseApiController
     {
-        private readonly IService _service;
-        public ModelController(IService service)
-        {
-            _service = service;
 
-        }
         // GET: api/<ModelController>
         [HttpGet]
         public IEnumerable<string> Get()

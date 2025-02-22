@@ -29,6 +29,8 @@ internal class Program
         builder.Services.AddDependencyInjectionInfrastructure();
         // handle exceptions
         builder.Services.RegisterExceptionConfiguration();
+        // to be injected in DBCOntext to get access to the context
+        builder.Services.AddHttpContextAccessor();
 
         var app = builder.Build();
 
